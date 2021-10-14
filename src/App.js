@@ -1,20 +1,20 @@
-import axios from "axios";
+import axios from 'axios';
 
 function App() {
   axios({
-    method: "get",
-    url: "https://69cee40f-f372-4734-a2ff-a043da89d0b2.mock.pstmn.io/location",
+    method: 'get',
+    url: 'https://69cee40f-f372-4734-a2ff-a043da89d0b2.mock.pstmn.io/location',
 
-    responseType: "json",
+    responseType: 'json',
   }).then(function (response) {
     console.log(response.data);
   });
 
   axios({
-    method: "get",
-    url: "https://69cee40f-f372-4734-a2ff-a043da89d0b2.mock.pstmn.io/activity",
+    method: 'get',
+    url: 'https://69cee40f-f372-4734-a2ff-a043da89d0b2.mock.pstmn.io/activity',
 
-    responseType: "json",
+    responseType: 'json',
   }).then(function (response) {
     console.log(response.data);
   });
